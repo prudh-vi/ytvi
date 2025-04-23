@@ -1,0 +1,25 @@
+
+###home 
+Get http://localhost:8383/
+
+
+###dashboard
+
+GET http://localhost:8383/dashboard/
+
+###data
+
+GET http://localhost:8383/api/data
+
+
+### data for adding a user
+
+POST http://localhost:8383/api/data
+Content-Type: application/json
+
+{
+    "name": "test"
+}
+
+### data for deleting a user
+DELETE  http://localhost:8383/api/data
